@@ -1,0 +1,11 @@
+var TSTART = /^{{/;
+var TEND = /^}}/;
+var PIPE = /^[|]/;
+var OUTERTEXT = /^.+?(?=({{|{:))/;
+var INNERTEXT = /^.+?(?=({{|{:|{{{|[|]|}}))/;
+var DSTART = /^{:/;
+var DEND = /^:}/;
+var INNERDTEXT= /^.+?(?=({{|{:|{{{|[|]|:}))/;
+var PSTART = /(^{{{)/;
+var PEND = /(^}}})/;
+var PNAME = /^.+?(?=(}}}|[|]))/;
