@@ -8,4 +8,6 @@ Concurrent programming folder:
 
 	dfabuilder
 	Deterministic finite automaton
-	It's a function that generates a (very long) string that would match. This simulation should accept a command-line parameter for controlling the number of optimistic threads, and should run the test 10 times, timing the total matching time (excluding the string construction time).
+	It's a function that generates a (very long) string that would match. 
+	This simulation should accept a command-line parameter for controlling the number of optimistic threads.
+	It should run the test 10 times, timing the total matching time (excluding the string construction time).
